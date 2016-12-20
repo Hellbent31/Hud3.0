@@ -222,7 +222,7 @@
 		"fieldName" "DisguiseStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"-5"
+		"xpos"	"80"
 		"ypos"	"415"
 		"wide"	"f0"
 		"tall"	"480"
