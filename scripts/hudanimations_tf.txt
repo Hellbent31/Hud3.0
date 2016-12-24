@@ -240,11 +240,11 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
 	
-	Animate PlayerStatusHealthValue			fgcolor		"255 255 102 255" Accel 0.0 0.0	
+	Animate PlayerStatusHealthValue			fgcolor		"209 25 25 255" Accel 0.0 0.0	
 	Animate PlayerStatusHealthValueTarget	fgcolor		"255 255 102 255" Accel	0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel fgcolor  "255 255 102 255" Accel 0.0 0.0
 	
-	RunEvent HudHealthDyingPulseLoop	0.25
+	RunEvent HudHealthDyingPulseLoop	0.50
 }
 
 // call to loop HudHealthDyingPulse
@@ -267,14 +267,20 @@ event HudHealthDyingPulseStop
 
 event HudLowAmmoPulse
 {
-	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
-	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
-	Animate AmmoInClip 					fgcolor     "255 255 102 255" Linear 0.0 0.0
-	Animate AmmoInReserve 				fgcolor     "255 255 102 255" Linear 0.0 0.0
-	Animate AmmoNoClip 					fgcolor     "255 255 102 255" Linear 0.0 0.0
+	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.3
+	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.3 0.3
+	
+	Animate AmmoInClip					fgcolor     "255 0 0 255" Linear 0.0 0.3
+	Animate AmmoInClip					fgcolor     "209 25 25 255" Linear 0.3 0.3
+		
+	Animate AmmoInReserve 				fgcolor     "255 165 08 255" Linear 0.0 0.3
+	Animate AmmoInReserve 				fgcolor     "255 140 0 255" Linear 0.3 0.3
+	
+	Animate AmmoNoClip 					fgcolor     "255 0 0 255" Linear 0.0 0.3
+	Animate AmmoNoClip 					fgcolor     "209 25 25 255" Linear 0.3 0.3
 
 	
-	RunEvent HudLowAmmoPulseLoop	0.25
+	RunEvent HudLowAmmoPulseLoop	0.9
 }
 
 // call to loop HudLowAmmoPulse
@@ -362,10 +368,9 @@ event FlagOutline
 event HudSpyDisguiseChanged
 {
 	Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
-	
 	Animate PlayerStatusSpyOutlineImage		Position	"c-200 c-200"	Linear 0.0 0.2
 	Animate PlayerStatusSpyOutlineImage		Size		"400 400"		Linear 0.0 0.2
-
+	
 	RunEvent HudSpyDisguiseHide	0.7
 }
 
