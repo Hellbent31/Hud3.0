@@ -18,8 +18,8 @@
 		
 		"ControlName"	"ceXLabel"
 		"fieldName"		"DamageAccountValue"
-		"xpos"			"c-240"
-		"ypos"			"c175"
+		"xpos"			"c-206"
+		"ypos"			"c105"
 		"zpos"			"2"
 		"wide"			"150"
 		"tall"			"26"
@@ -27,7 +27,7 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"font"			"BikoRegular24"
+		"font"			"BikoBold24"
 		}
 	"DamageAccountValueShadow"
 	{
@@ -35,8 +35,8 @@
 		
 		"ControlName"	"ceXLabel"
 		"fieldName"		"DamageAccountValueShadow"
-		"xpos"			"c-239"
-		"ypos"			"c176"
+		"xpos"			"c-205"
+		"ypos"			"c106"
 		"zpos"			"2"
 		"wide"			"150"
 		"tall"			"26"
@@ -44,6 +44,6 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"font"			"BikoRegular24"
+		"font"			"BikoBold24"
 	}
 }
