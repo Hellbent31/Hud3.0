@@ -2981,6 +2981,36 @@ Scheme
 			}
 		}
 		
+		BikoRegular13
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"13"
+				"antialias" "1"
+			}
+		}
+		
+		BikoRegular14
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"14"
+				"antialias" "1"
+			}
+		}
+		
+		BikoRegular15
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"15"
+				"antialias" "1"
+			}
+		}
+		
 		BikoRegular16
 		{
 			"1"
@@ -3085,6 +3115,36 @@ Scheme
 			{
 				"name"		"Biko-Bold"
 				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold13
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"13"
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold14
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"14"
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold15
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"15"
 				"antialias" "1"
 			}
 		}
