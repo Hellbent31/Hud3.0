@@ -33,7 +33,7 @@
 		"fieldName"		"PlayerStatusSpyImage"
 		"xpos"			"3"		[$WIN32]
 		"ypos"			"r67"	[$WIN32]
-		"zpos"			"2"
+		"zpos"			"-5"
 		"wide"			"55"
 		"tall"			"55"
 		"visible"		"1"
@@ -48,15 +48,11 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyOutlineImage"
 		"xpos"			"3"		[$WIN32]
-		"xpos_minmode"	"-5"	[$WIN32]
 		"ypos"			"r67"	[$WIN32]
-		"ypos_minmode"	"r44"	[$WIN32]
-		"zpos"			"7"
+		"zpos"			"-5"
 		"wide"			"55"
-		"wide_minmode"	"27"
 		"tall"			"55"
-		"tall_minmode"	"27"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_spy_outline"
 		"scaleImage"	"1"	
@@ -75,9 +71,7 @@
 		"scaleImage"	"1"
 		"image"			"../hud/character_red_bg"	
 		"teambg_2"		"../hud/character_red_bg"
-		"teambg_2_lodef"	"../hud/character_red_bg_lodef"
 		"teambg_3"		"../hud/character_blue_bg"
-		"teambg_3_lodef"	"../hud/character_blue_bg_lodef"
 	}
 
 	"classmodelpanelBG"
