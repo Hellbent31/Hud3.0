@@ -11,6 +11,6 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"BikoRegular32"
+		"delta_item_font"		"BikoBold32"
 	}
 }
